@@ -33,7 +33,7 @@ resource "azurerm_postgresql_flexible_server" "base_postgresql_flexible_server" 
 
 
   storage_mb   = 32768
-  storage_tier = "P30"
+  storage_tier = "P15"
 
   sku_name   = "B_Standard_B1ms"
 }
